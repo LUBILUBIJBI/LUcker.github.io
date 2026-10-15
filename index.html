@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111522">
+  <title>LUcker – Download</title>
+  <style>
+    :root { color-scheme: dark; --bg:#111522; --card:#1b2131; --line:#303950; --text:#f3f5fb; --muted:#aab4c9; --accent:#9b83ff; }
+    * { box-sizing:border-box }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:24px; background:radial-gradient(ellipse at 50% 0,#272244 0,transparent 55%),var(--bg); color:var(--text); font:16px/1.55 "Segoe UI",system-ui,sans-serif }
+    main { width:min(100%,520px); padding:36px; border:1px solid var(--line); border-radius:22px; background:rgba(27,33,49,.94); box-shadow:0 24px 80px #0006 }
+    .mark { display:inline-grid; place-items:center; width:54px; height:54px; border-radius:16px; background:#29233e; color:var(--accent); font-size:28px }
+    h1 { margin:18px 0 4px; font-size:32px; letter-spacing:-.5px }
+    p { margin:0 0 24px; color:var(--muted) }
+    a { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:12px; padding:15px 17px; border:1px solid var(--line); border-radius:12px; color:var(--text); text-decoration:none; font-weight:650; transition:transform .15s,border-color .15s,background .15s }
+    a:hover { transform:translateY(-1px); border-color:var(--accent); background:#ffffff08 }
+    a.primary { border-color:var(--accent); background:var(--accent); color:#171329 }
+    small { display:block; margin-top:5px; color:inherit; opacity:.75; font-weight:400 }
+    footer { margin-top:23px; color:var(--muted); font-size:13px }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="mark" aria-hidden="true">◈</span>
+    <h1>LUcker</h1>
+    <p>Auto clicker for Windows · free and local</p>
+
+    <a class="primary" href="./LUcker.exe" download>
+      <span>LUcker.exe<small>Download and run – no installation required</small></span><span aria-hidden="true">↓</span>
+    </a>
+    <a href="./LUcker.zip" download>
+      <span>LUcker.zip<small>ZIP package with the app and project information</small></span><span aria-hidden="true">↓</span>
+    </a>
+    <a href="https://github.com/LUBILUBIJBI/LUcker" target="_blank" rel="noopener noreferrer">
+      <span>GitHub repository<small>View the source code</small></span><span aria-hidden="true">↗</span>
+    </a>
+
+    <footer>For the local downloads, keep this HTML file, LUcker.exe, and LUcker.zip in the same folder.</footer>
+  </main>
+</body>
+</html>
